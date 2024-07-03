@@ -19,7 +19,7 @@ def task():
             updated_val = input("Enter the task name you want to update =")
             if updated_val in tasks:
                 Up = input("Enter new task = ")
-                ind = tasks.index(updated_val)#it will return integer value 1,2,3 smthng like that
+                ind = tasks.index(updated_val)#it will return int value
                 tasks[ind] =Up
                 print(f"Updated task {Up}")
 
